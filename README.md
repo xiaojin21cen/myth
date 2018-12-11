@@ -50,7 +50,8 @@ myth-kafka 该项目是对消息中间件kafka的支持，里面主要针对kafk
 myth-rabbitmq 该项目是对消息中间件rabbitmq的支持，里面主要针对rabbitmq的特性的实现。
 myth-rocketmq 该项目是对消息中间件rocketmq的支持，里面主要针对rocketmq的特性的实现。
 
-myth-demo 这是实战体验的demo项目，里面有针对dubbo用户、motan用户、springcloud用户的案列，里面具体的配置，用户可以参考 myth-demo-dubbo、 myth-demo-springcloud 以及 myth-demo-motan 。
+myth-demo 这是实战体验的demo项目，里面有针对dubbo用户、motan用户、springcloud用户的案列，里面具体的配置，
+ 用户可以参考 myth-demo-dubbo、 myth-demo-springcloud 以及 myth-demo-motan 。
 
 myth-dashboard 该项目是分布式事务管理后台的前端源码，采用vue.js + element UI 实现
 myth-admin 该项目是分布式事务的跟踪管理后台（调用链跟踪，控制补偿事务等功能）
