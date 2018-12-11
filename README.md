@@ -32,6 +32,30 @@ myth
 
   * ## https://juejin.im/post/5a5c63986fb9a01cb64ec517 
   
+ ` myth-annotation` myth分布式事务框架注解(如 @myth注解),业务层主要通过该注解标记来实现分布式事务功能，dubbo, motan等rpc框架需要依赖此工程，为公共基础工程。
+
+`myth-common ` 一个公共项目，里面主要是一些配置，枚举，异常定义等。
+`myth-core` 该项目是myth框架的核心实现，包括服务的启动，调用流程，aop切面，重试机制等实现。
+
+`myth-rpc` 该项目是对主流rpc框架的支持，包括dubbo、motan、springcloud。
+`myth-dubbo` 该项目是对dubbo框架的支持，里面主要针对dubbo的特性的实现。
+
+`myth-springcloud` 该项目是对springcloud框架的支持，里面主要针对springcloud的特性的实现。
+`myth-motan` 该项目是对motan框架的支持，里面主要针对motan的特性的实现。
+
+`myth-brpc` 未完待续。。。
+`myth-grpc` 未完待续。。。
+`myth-mq `，主要对主流MQ系列框架的支持，包括activeMq, kafka, rabbitmq, rocketmq 。
+`myth-jms` 该项目是对消息中间件activemq的支持，里面主要针对activemq的特性的实现。
+`myth-kafka `该项目是对消息中间件kafka的支持，里面主要针对kafka的特性的实现。
+`myth-rabbitmq` 该项目是对消息中间件rabbitmq的支持，里面主要针对rabbitmq的特性的实现。
+`myth-rocketmq` 该项目是对消息中间件rocketmq的支持，里面主要针对rocketmq的特性的实现。
+`myth-demo `这是实战体验的demo项目，里面有针对dubbo用户、motan用户、springcloud用户的案列，里面具体的配置，用户可以参考 myth-demo-dubbo、 myth-`demo-springcloud` 以及 myth-demo-motan 。
+`myth-dashboard `该项目是分布式事务管理后台的前端源码，采用vue.js + element UI 实现
+`myth-admin` 该项目是分布式事务的跟踪管理后台（调用链跟踪，控制补偿事务等功能）
+
+
+  
 #  视频详解
 
   * ## 环境搭建以及运行 : http://www.iqiyi.com/w_19rw5zuigl.html
