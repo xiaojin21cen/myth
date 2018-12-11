@@ -32,6 +32,7 @@ myth
 
   * ## https://juejin.im/post/5a5c63986fb9a01cb64ec517 
   
+ ```
  ` myth-annotation` myth分布式事务框架注解(如 @myth注解),业务层主要通过该注解标记来实现分布式事务功能，dubbo, motan等rpc框架需要依赖此工程，为公共基础工程。
 
 `myth-common ` 一个公共项目，里面主要是一些配置，枚举，异常定义等。
@@ -53,7 +54,7 @@ myth
 `myth-demo `这是实战体验的demo项目，里面有针对dubbo用户、motan用户、springcloud用户的案列，里面具体的配置，用户可以参考 myth-demo-dubbo、 myth-`demo-springcloud` 以及 myth-demo-motan 。
 `myth-dashboard `该项目是分布式事务管理后台的前端源码，采用vue.js + element UI 实现
 `myth-admin` 该项目是分布式事务的跟踪管理后台（调用链跟踪，控制补偿事务等功能）
-
+```
 
   
 #  视频详解
