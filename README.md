@@ -90,22 +90,22 @@ myth-admin 该项目是分布式事务的跟踪管理后台（调用链跟踪，
    > mvn -DskipTests clean install -U
    ```
 
-* #### execute this sql       
- https://github.com/yu199195/myth/tree/master/myth-demo/sql/myth-mysql-demo.sql
+* #### demo 建表语句      
+ https://github.com/xiaojin21cen/myth/blob/master/myth-demo/sql/myth-mysql-demo.sql
 
 * #### Find the RPC framework that works for you
- https://github.com/yu199195/myth/tree/master/myth-demo
+ https://github.com/xiaojin21cen/myth/tree/master/myth-demo
 
 
-* ## [Dubbo Quick Start](https://github.com/yu199195/myth/wiki/Dubbo-Quick-Start)
+* ## [Dubbo Quick Start](https://github.com/xiaojin21cen/myth/wiki/Dubbo-Quick-Start)
 
-* ##  [SpringCloud Quick Start](https://github.com/yu199195/myth/wiki/SpringCloud--Quick-Start)
+* ##  [SpringCloud Quick Start](https://github.com/xiaojin21cen/myth/wiki/SpringCloud--Quick-Start)
 
-* ##  [Motan Quick Start](https://github.com/yu199195/myth/wiki/Motan-Quick-Start)
+* ##  [Motan Quick Start](https://github.com/xiaojin21cen/myth/wiki/Motan-Quick-Start)
 
 # Configuration
 
-* ####  [配置详解](https://github.com/yu199195/myth/wiki/Configuration)
+* ####  [配置详解](https://github.com/xiaojin21cen/myth/wiki/Configuration)
 
 # User Guide
 
@@ -119,11 +119,11 @@ myth-admin 该项目是分布式事务的跟踪管理后台（调用链跟踪，
 * #### 关于jar包版本问题 ，现在因为没有传到中央仓库，如果引用的话，请自行设置相应的版本。
 
 
-*  ## [Dubbo User Guide](https://github.com/yu199195/myth/wiki/Dubbo-User-Guide)
+*  ## [Dubbo User Guide](https://github.com/xiaojin21cen/myth/wiki/Dubbo-User-Guide)
 
-*  ## [Motan User Guide](https://github.com/yu199195/myth/wiki/Motan-User-Guide)
+*  ## [Motan User Guide](https://github.com/xiaojin21cen/myth/wiki/Motan-User-Guide)
 
-*  ## [SpringCloud User Guide](https://github.com/yu199195/myth/wiki/SpringCloud-User-Guide)
+*  ## [SpringCloud User Guide](https://github.com/xiaojin21cen/myth/wiki/SpringCloud-User-Guide)
 
 # FAQ
 
