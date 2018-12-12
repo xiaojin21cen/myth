@@ -24,14 +24,12 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * @author xiaoyu
+ * 用户每单交易数据
  */
 @Data
 public class AccountDTO implements Serializable {
 
     private static final long serialVersionUID = 7223470850578998427L;
-
-
     /**
      * 用户id
      */
