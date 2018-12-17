@@ -9,12 +9,11 @@
 
     <dubbo:application name="account-service"/>
 
-    <dubbo:registry protocol="zookeeper" address="http://47.95.230.92:2181"/>
+    <dubbo:registry protocol="zookeeper" address="47.95.230.92:2181"/>
 
     <dubbo:protocol accesslog="true" name="dubbo" port="20888"/>
 
-    <dubbo:service interface="org.dromara.myth.demo.dubbo.account.api.service.AccountService"
-                   ref="accountService"/>
+    <dubbo:service interface="org.dromara.myth.demo.dubbo.account.api.service.AccountService"   ref="accountService" />
 
 
 </beans>
