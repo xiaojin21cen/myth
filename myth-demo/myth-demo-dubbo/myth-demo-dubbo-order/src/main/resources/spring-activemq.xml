@@ -10,7 +10,7 @@
 
 
     <amq:connectionFactory id="amqConnectionFactory"
-                           brokerURL="tcp://127.0.0.1:61616"
+                           brokerURL="tcp://47.95.230.92:61616"
                            />
 
 
